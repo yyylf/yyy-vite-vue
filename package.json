@@ -1,0 +1,24 @@
+{
+  "name": "yyy-vite-vue3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@nestjs/typeorm": "^10.0.1",
+    "axios": "^1.6.2",
+    "mysql2": "^3.6.5",
+    "typeorm": "^0.3.17",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.22"
+  }
+}
